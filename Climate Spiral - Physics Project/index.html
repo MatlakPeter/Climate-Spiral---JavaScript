@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Spiral</title>
+    <link rel="stylesheet" href="style_index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="sketch.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Climate Spiral 1880-2023</h1>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="sources.html">Sources</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="animation-container">
+            
+        </div> 
+
+        <div class="input-container">
+            <label for="startYear">Start Year:</label>
+            <input type="number" id="startYear" placeholder="Enter start year">
+
+            <label for="endYear">End Year:</label>
+            <input type="number" id="endYear" placeholder="Enter end year">
+
+            <button onclick="updateYears()">Update Years</button>
+        </div>
+    </div>
+
+    <script src="sketch.js"></script>
+</body>
+</html>

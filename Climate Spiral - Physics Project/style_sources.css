@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+
+    min-height: 100vh; /* Set a minimum height */
+    overflow-y: scroll; /* Force vertical scroll bar */
+  }
+  
+  header {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  
+  nav a.active {
+    font-weight: bold;
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    max-height: 400px; /* Set your preferred max height */
+    overflow-y: auto; /* Add scrollbar when content exceeds max height */
+  }
+  
+  .source-link {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .source-link a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .source-link a:hover {
+    text-decoration: underline;
+  }
+  
